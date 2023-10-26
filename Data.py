@@ -27,7 +27,7 @@ class Data:
 """
 
     close = [
-        [InlineKeyboardButton("ᴛᴜᴛᴜᴘ", callback_data="close")]
+        [InlineKeyboardButton("ᴄʟᴏsᴇ", callback_data="close")]
     ]
 
     mbuttons = [
@@ -47,11 +47,11 @@ class Data:
     ABOUT = """
 <b>About this Bot:
 
- @{} is a Telegram Bot for saving Posts or Files that can be Accessed via a Special Link.
+@{} is a Telegram Bot for saving Posts or Files that can be Accessed via a Special Link.
 
   • Creator: @{}
   • Framework: Pyrogram
   • Source Code: <a href='https://t.me/Monkey_d_luufy'>Filebot</a>
 
-👨‍💻 Develoved by </b><a href='https://t.me/GeekLuffy'>Luffy</a>
+👨‍💻 Develoved by <a href='https://t.me/GeekLuffy'>Luffy</a></b>
 """
