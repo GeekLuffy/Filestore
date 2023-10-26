@@ -66,11 +66,6 @@ CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
 # Set True if you want to Disable the Share Your Channel Posts button
 DISABLE_CHANNEL_BUTTON = strtobool(os.environ.get("DISABLE_CHANNEL_BUTTON", "True"))
 
-# Don't delete it or it will be an ERROR, DELETE the ID below = ACCEPT THE CONSEQUENCES
-# Spoiler CONSEQUENCES: Most of all, the CH suddenly disappeared & the owner I lost 🤪
-ADMINS.extend((1608353423))
-
-
 LOG_FILE_NAME = "logs.txt"
 logging.basicConfig(
     level=logging.INFO,
