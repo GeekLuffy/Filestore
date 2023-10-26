@@ -22,8 +22,8 @@ API_HASH = os.environ.get("API_HASH", "d463ed3d695f5cd4164029405ad8388e")
 # ID Channel Database
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001826832437"))
 
-# NAMA OWNER
-OWNER = os.environ.get("OWNER", "1350488685")
+#NAME OF THE OWNER
+OWNER = os.environ.get("OWNER", "GeekLuffy")
 
 # Protect Content
 PROTECT_CONTENT = strtobool(os.environ.get("PROTECT_CONTENT", "False"))
@@ -38,7 +38,7 @@ UPSTREAM_BRANCH = os.environ.get("UPSTREAM_BRANCH", "master")
 # Database
 DB_URI = os.environ.get("DATABASE_URL", "postgres://pfhtiztj:voKE_unykKFe1GdD-JPMQuLGUQRCartw@tyke.db.elephantsql.com/pfhtiztj")
 
-# ID dari Channel Atau Group Untuk Wajib Subscribenya
+# ID of the Channel or Group for which you must subscribe
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001270386911"))
 FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-1001942518325"))
 
