@@ -24,7 +24,7 @@
 
  ## 🛡 Installation
  ### Deploy on Heroku
- ![Deploy](https://risman.vercel.app/file-deploy.html)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://risman.vercel.app/file-deploy.html)</br>
 
  Watch This Tutorial Video on YouTube for Help installing on Heroku
  
@@ -79,7 +79,7 @@
  - Based on CodeXBotz Repo File-Sharing-Bot
 
  ## 📑 License
- ![GNU GPLv3 Image](http://www.gnu.org/licenses/gpl-3.0.en.html)
+[![GNU GPLv3 Image](https://www.gnu.org/graphics/gplv3-127x51.png)](http://www.gnu.org/licenses/gpl-3.0.en.html)  
 
  FILE-SHARING-BOT is Free Software: You can use, study share and improve it at your
  will.  specifically you can redistribute and/or modify it under the terms of the
