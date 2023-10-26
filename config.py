@@ -29,7 +29,7 @@ OWNER = os.environ.get("OWNER", "1350488685")
 PROTECT_CONTENT = strtobool(os.environ.get("PROTECT_CONTENT", "False"))
 
 # Heroku Credentials for updater.
-HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", "okbhaiya")
+HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", "filestorebott")
 HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", "deefc109-7b98-4e15-b101-67988fae4dda")
 
 # Custom Repo for updater.
