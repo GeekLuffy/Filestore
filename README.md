@@ -1,95 +1,92 @@
-# File-Sharing-Man
 
-Bot Telegram untuk menyimpan Posting atau File yang dapat Diakses melalui Link Khusus.
-Saya Kira Ini Akan Bermanfaat Bagi Banyak Orang.
 
-## ⚠️ Disclaimer
+ Telegram Bot to save Posts or Files that can be Accessed via Special Links.
+ I Think This Will Be Useful For Many People.
 
-```
-Saya tidak bertanggung jawab atas penyalahgunaan bot ini.
-Bot ini dimaksudkan untuk membantu untuk menyimpan file yang diinginkan yang dapat diakses melalui Link Khusus.
-Gunakan bot ini dengan risiko Anda sendiri, dan gunakan bot ini dengan bijak.
-```
+ ## ⚠️ Disclaimer
 
-### Features
-- Sepenuhnya dapat dicustom.
-- Dapat di-deploy di heroku & vps.
-- Pesan sambutan & Forcesub yang dapat dicustom.
-- Lebih dari satu Posting dalam Satu Link (batch).
-- Fleksibel FSUB Button bisa 1 button atau 2 button menyesuaikan dengan var yang di isi.
+ I am not responsible for any misuse of this bot.
+ This bot is intended to help to save desired files which can be accessed via Special Links.
+ Use these bots at your own risk, and use them wisely.
 
-### Setup
+ ### Features
+ - Fully customizable.
+ - Can be deployed on heroku & vps.
+ - Customizable welcome message & Forcesub.
+ - More than one post in one link (batch).
+ - Flexible FSUB Button can be 1 button or 2 buttons according to the var being filled.
 
-- Tambahkan bot ke Channel Database dengan semua izin admin
-- Tambahkan bot ke Channel ForceSub tambahkan bot sebagai ADMIN
-- Tambahkan bot ke Group ForceSub tambahkan bot sebagai ADMIN
+ ### Setup
 
-## 🛡 Installation
-### Deploy on Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://risman.vercel.app/file-deploy.html)</br>
+ - Add bot to Channel Database with all admin permissions
+ - Add bot to Channel ForceSub add bot as ADMIN
+ - Add bot to Group ForceSub add bot as ADMIN
 
-**Tonton Video Tutorial Ini di YouTube untuk Bantuan memasang di Heroku**<br>
-<a href="https://youtu.be/O2tieQgzYZg">
-  <img src="https://img.shields.io/badge/How%20to-Deploy-red?logo=youtube" width="147">
-</a><br>
+ ## 🛡 Installation
+ ### Deploy on Heroku
+ ![Deploy](https://risman.vercel.app/file-deploy.html)
 
-<details>
-<summary><h3><b>🔗 Extra Custom & List Vars</b></h3></summary>
+ Watch This Tutorial Video on YouTube for Help installing on Heroku
+ 
+   
+ 
 
-### Variables
+ 
+ 🔗 Extra Custom & List Vars
 
-* `API_HASH` Dapatkan API HASH di web my.telegram.org.
-* `API_ID` Dapatkan APP ID di web my.telegram.org
-* `TG_BOT_TOKEN` Dapatkan dari t.me/BotFather
-* `OWNER` Masukan Username Telegram untuk Owner BOT
-* `CHANNEL_ID` Masukan ID Channel Untuk [Channel Database] contoh:- -100xxxxxxxx
-* `ADMINS` Masukan User ID untuk mendapatkan hak Admin di BOT
-* `START_MESSAGE` Opsional: Pesan /start memulai awalan ke bot, Gunakan <a href='https://github.com/mrismanaziz/File-Sharing-Man/blob/main/README.md#start_message'>format</a> parsemode HTML 
-* `FORCE_SUB_MESSAGE` Opsional: Pesan Paksa Subscribe bot, Gunakan Format parsemode HTML
-* `FORCE_SUB_CHANNEL` Masukan ID dari Channel Untuk Wajib Subscribenya
-* `FORCE_SUB_GROUP` Masukan ID dari Group Untuk Wajib Subscribenya
+ ### Variables
 
-### Extra Variables
+ * API_HASH Get the HASH API on the web my.telegram.org.
+ * API_ID Get APP ID on the web my.telegram.org
+ * TG_BOT_TOKEN Get it from t.me/BotFather
+ * OWNER Enter Telegram Username for BOT Owner
+ * CHANNEL_ID Enter the Channel ID for [Channel Database] example:- -100xxxxxxxx
+ * ADMINS Enter User ID to get Admin rights in BOT
+ * Optional START_MESSAGE: The /start message initiates a prefix to the bot, Use format  HTML parsemode
+ * FORCE_SUB_MESSAGE Optional: Force Subscribe bot message, Use HTML parsemode format
+ * FORCE_SUB_CHANNEL Enter the ID of the channel for mandatory subscription
+ * FORCE_SUB_GROUP Enter the ID of the Group for Mandatory Subscription
 
-* `CUSTOM_CAPTION` letakkan teks teks Kustom Anda jika Anda ingin Mengatur Teks Kustom, Anda dapat menggunakan HTML dan <a href='https://github.com/mrismanaziz/File-Sharing-Man/blob/main/README.md#custom_caption'>fillings</a> untuk pemformatan (hanya untuk dokumen)
-* `DISABLE_CHANNEL_BUTTON` Masukan True untuk Nonaktifkan Tombol Berbagi Saluran, Default jika False
+ ### Extra Variables
 
-### Fillings
-#### START_MESSAGE | FORCE_SUB_MESSAGE
+ * CUSTOM_CAPTION put your Custom text text if you want to Set Custom Text you can use HTML and fillings for formatting (only for documents)
+ * DISABLE_CHANNEL_BUTTON Enter True to Disable Channel Sharing Button, Default if False
 
-* `{first}` - User first name
-* `{last}` - User last name
-* `{id}` - User ID
-* `{mention}` - Mention the user
-* `{username}` - Username
+ ### Fillings
+ #### START_MESSAGE |  FORCE_SUB_MESSAGE
 
-#### CUSTOM_CAPTION
+ * {first} - User first name
+ * {last} - User last name
+ * {id} - User ID
+ * {mention} - Mention the user
+ * {username} - Username
 
-* `{filename}` - file name of the Document
-* `{previouscaption}` - Original Caption
+ #### CUSTOM_CAPTION
 
-</details>
+ * {filename} - file name of the Document
+ * {previouscaption} - Original Caption
 
-## 🏷 Support   
-- Follow Channel [@Lunatic0de](https://t.me/Lunatic0de) untuk info Update bot 
-- Gabung Group [@SharingUserbot](https://t.me/SharingUserbot) untuk diskusi, pelaporan bug, dan bantuan tentang File-Sharing-Man.
+ 
 
-## 👨🏻‍💻 Credits
+ ## 🏷 Support
+ - Follow Channel @Lunatic0de for bot update info
+ - Join Group @SharingUserbot for discussion, bug reporting and help about File-Sharing-Man.
 
--  [Dan](https://github.com/delivrance) for [Pyrogram](https://github.com/pyrogram/pyrogram)
--  [Risman](https://github.com/mrismanaziz) for [File-Sharing-Man](https://github.com/mrismanaziz/File-Sharing-Man)
--  Based on [CodeXBotz](https://github.com/CodeXBotz) Repo [File-Sharing-Bot](https://github.com/CodeXBotz/File-Sharing-Bot)
+ ## 👨🏻‍💻 Credits
 
-## 📑 License
-[![GNU GPLv3 Image](https://www.gnu.org/graphics/gplv3-127x51.png)](http://www.gnu.org/licenses/gpl-3.0.en.html)  
+ - And for Pyrogram
+ - Risman for File-Sharing-Man
+ - Based on CodeXBotz Repo File-Sharing-Bot
 
-[FILE-SHARING-BOT](https://github.com/mrismanaziz/File-Sharing-Man/) is Free Software: You can use, study share and improve it at your
-will. Specifically you can redistribute and/or modify it under the terms of the
-[GNU General Public License](https://www.gnu.org/licenses/gpl.html) as
-published by the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version. 
+ ## 📑 License
+ ![GNU GPLv3 Image](http://www.gnu.org/licenses/gpl-3.0.en.html)
 
-##
+ FILE-SHARING-BOT is Free Software: You can use, study share and improve it at your
+ will.  specifically you can redistribute and/or modify it under the terms of the
+ GNU General Public License as
+ published by the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
 
-   **Berikan Bintang Repo ini jika Anda menyukainya ⭐⭐⭐⭐⭐**
+ ##
 
+    Give this Repo a Star if you like it ⭐️⭐️⭐️⭐️⭐️
