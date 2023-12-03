@@ -24,7 +24,7 @@
 
  ## 🛡 Installation
  ### Deploy on Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://risman.vercel.app/file-deploy.html)</br>
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/GeekLuffy/FileStore)</br>
 
  Watch This Tutorial Video on YouTube for Help installing on Heroku
  
