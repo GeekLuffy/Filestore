@@ -29,8 +29,8 @@ OWNER = os.environ.get("OWNER", "GeekLuffy")
 PROTECT_CONTENT = strtobool(os.environ.get("PROTECT_CONTENT", "False"))
 
 # Heroku Credentials for updater.
-HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", "filestorebott")
-HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", "deefc109-7b98-4e15-b101-67988fae4dda")
+HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", "")
+HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", "")
 
 # Custom Repo for updater.
 UPSTREAM_BRANCH = os.environ.get("UPSTREAM_BRANCH", "master")
