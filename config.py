@@ -23,7 +23,7 @@ API_HASH = os.environ.get("API_HASH", "d463ed3d695f5cd4164029405ad8388e")
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001826832437"))
 
 #NAME OF THE OWNER
-OWNER = os.environ.get("OWNER", "GeekLuffy")
+OWNER = os.environ.get("OWNER", "KaRma_Xz")
 
 # Protect Content
 PROTECT_CONTENT = strtobool(os.environ.get("PROTECT_CONTENT", "False"))
