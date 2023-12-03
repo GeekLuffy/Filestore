@@ -23,7 +23,7 @@ class Data:
   ├ /speedtest - To test bot server speed
   └ /broadcast - To send broadcast messages to bot users
 
-👨‍💻 Develoved by </b><a href='https://t.me/GeekLuffy'>Luffy</a>
+👨‍💻 Develoved by </b><a href='https://t.me/Anime_Sprizen'>Anime Sprizen</a>
 """
 
     close = [
@@ -53,5 +53,5 @@ class Data:
   • Framework: Pyrogram
   • Source Code: <a href='https://t.me/Monkey_d_luufy'>Filebot</a>
 
-👨‍💻 Develoved by <a href='https://t.me/GeekLuffy'>Luffy</a></b>
+👨‍💻 Develoved by <a href='https://t.me/Anime_Sprizen'>Anime Sprizen</a></b>
 """
